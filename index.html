@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="grid place-items-center w-full">
+      <h1 class="text-4xl text-gray-900 font-mono my-5">Simple Calculator Project With Javascript</h1>
+      <div class="rounded-md border-3 border-gray-900 bg-gray-900 w-96 p-0.5">
+        <input id="input" type="text" class="calculator-screen bg-gray-900 p-5 placeholder-white w-full tracking-widest text-white text-right focus:outline-none" placeholder="OFF" />
+
+        <div id="typing-field" class="grid grid-cols-4 gap-0.5">
+          <button class="all-clear rounded col-span-2 text-white bg-gray-500 h-12 hover:bg-gray-600">AC</button>
+          <button value="%" class="percentage rounded text-white bg-gray-500 h-12 hover:bg-gray-600">%</button>
+          <button value="/" class="operator rounded text-white bg-orange-500 h-12 hover:bg-orange-600">/</button>
+
+          <button value="7" class="number rounded text-white bg-gray-500 h-12 hover:bg-gray-600">7</button>
+          <button value="8" class="number rounded text-white bg-gray-500 h-12 hover:bg-gray-600">8</button>
+          <button value="9" class="number rounded text-white bg-gray-500 h-12 hover:bg-gray-600">9</button>
+          <button value="*" class="operator rounded text-white bg-orange-500 h-12 hover:bg-orange-600">X</button>
+
+          <button value="4" class="number rounded text-white bg-gray-500 h-12 hover:bg-gray-600">4</button>
+          <button value="5" class="number rounded text-white bg-gray-500 h-12 hover:bg-gray-600">5</button>
+          <button value="6" class="number rounded text-white bg-gray-500 h-12 hover:bg-gray-600">6</button>
+          <button value="-" class="operator rounded text-white bg-orange-500 h-12 hover:bg-orange-600">─</button>
+
+          <button value="1" class="number rounded text-white bg-gray-500 h-12 hover:bg-gray-600">1</button>
+          <button value="2" class="number rounded text-white bg-gray-500 h-12 hover:bg-gray-600">2</button>
+          <button value="3" class="number rounded text-white bg-gray-500 h-12 hover:bg-gray-600">3</button>
+          <button value="+" class="operator rounded text-white bg-orange-500 h-12 hover:bg-orange-600">+</button>
+
+          <button value="0" class="number rounded col-span-2 text-white bg-gray-500 h-12 hover:bg-gray-600">0</button>
+          <button value="." class="decimal rounded text-white bg-gray-500 h-12 hover:bg-gray-600">.</button>
+          <button class="equal-sign rounded text-white bg-orange-500 h-12 hover:bg-orange-600">=</button>
+        </div>
+      </div>
+      <div class="text-4xl text-gray-900 font-mono my-5">
+        <p>Make by Raden Athaya Gani Basunjaya</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
